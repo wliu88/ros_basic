@@ -1,0 +1,17 @@
+1. Required CMake Version (cmake_minimum_required)
+
+2. Package Name (project())
+
+3. Find other CMake/Catkin packages needed for build (find_package())
+
+4. Message/Service/Action Generators (add_message_files(), add_service_files(), add_action_files())
+
+5. Invoke message/service/action generation (generate_messages())
+
+6. Specify package build info export (catkin_package())
+
+7. Libraries/Executables to build (add_library()/add_executable()/target_link_libraries())
+
+8. Tests to build (catkin_add_gtest())
+
+9. Install rules (install()) 
